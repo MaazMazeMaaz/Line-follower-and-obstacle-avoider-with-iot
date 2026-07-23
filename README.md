@@ -39,26 +39,8 @@ The system combines sensing, control, and embedded processing to perform autonom
 
 ## ⚙️ System Overview
 
-```
-                 +----------------+
-                 |   IR Sensors   |
-                 +-------+--------+
-                         |
-                         |
-+-----------+     +-------------+      +----------------+
-|Ultrasonic |---->| Arduino Uno |----->| L298N Driver   |
-|  Sensor   |     +-------------+      +-------+--------+
-+-----------+             |                    |
-                           |                    |
-+------------+             |             +------+------+
-|ColorSensor |-------------+             | DC Motors   |
-+------------+                           +-------------+
-
-                    |
-                    |
-                ESP32 Module
-              (Wireless Control)
-```
+![Circuit](images/schematic.png)
+![PCB](images/pcb.png)
 
 ---
 
